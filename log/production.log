@@ -1,0 +1,784 @@
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 16:28:13 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Mon May 16 16:28:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/custom.css?1305063242" for 127.0.0.1 at Mon May 16 16:28:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Mon May 16 16:28:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Mon May 16 16:28:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Mon May 16 16:28:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 16:37:32 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Mon May 16 16:37:32 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/custom.css?1305063242" for 127.0.0.1 at Mon May 16 16:37:32 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Mon May 16 16:37:32 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Mon May 16 16:37:32 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Mon May 16 16:37:32 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 16:40:09 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Mon May 16 16:40:09 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Mon May 16 16:40:09 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Mon May 16 16:40:09 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/custom.css?1305063242" for 127.0.0.1 at Mon May 16 16:40:09 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Mon May 16 16:40:09 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon May 16 16:40:31 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Mon May 16 16:40:31 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Mon May 16 16:40:31 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Mon May 16 16:40:31 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/custom.css?1305063242" for 127.0.0.1 at Mon May 16 16:40:31 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Mon May 16 16:40:31 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 17 11:53:38 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 31ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Tue May 17 11:53:51 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Tue May 17 11:53:51 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/custom.css?1305063242" for 127.0.0.1 at Tue May 17 11:53:51 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Tue May 17 11:53:51 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Tue May 17 11:53:52 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 17 11:55:12 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Tue May 17 11:55:13 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Tue May 17 11:55:13 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/custom.css?1305063242" for 127.0.0.1 at Tue May 17 11:55:13 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Tue May 17 11:55:13 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Tue May 17 11:55:13 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 17 11:55:48 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Tue May 17 11:55:48 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/custom.css?1305063242" for 127.0.0.1 at Tue May 17 11:55:48 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Tue May 17 11:55:48 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Tue May 17 11:55:48 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Tue May 17 11:55:48 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 17 11:56:00 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Tue May 17 11:56:00 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Tue May 17 11:56:00 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Tue May 17 11:56:00 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/custom.css?1305063242" for 127.0.0.1 at Tue May 17 11:56:00 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Tue May 17 11:56:00 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 17 12:28:30 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Tue May 17 12:28:42 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/stylesheets/print.css" for 127.0.0.1 at Tue May 17 12:28:42 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/stylesheets/custom.css" for 127.0.0.1 at Tue May 17 12:28:42 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Tue May 17 12:28:42 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Tue May 17 12:28:42 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 17 12:30:19 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Tue May 17 12:30:31 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Tue May 17 12:30:31 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/stylesheets/custom.css" for 127.0.0.1 at Tue May 17 12:30:31 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/stylesheets/print.css" for 127.0.0.1 at Tue May 17 12:30:31 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Tue May 17 12:30:31 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 17 12:32:13 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/custom.css" for 127.0.0.1 at Tue May 17 12:32:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Tue May 17 12:32:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/print.css" for 127.0.0.1 at Tue May 17 12:32:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Tue May 17 12:32:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Tue May 17 12:32:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 17 12:33:39 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css?1305063242" for 127.0.0.1 at Tue May 17 12:33:51 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Tue May 17 12:33:51 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Tue May 17 12:33:51 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Tue May 17 12:33:51 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Tue May 17 12:33:51 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 17 12:34:25 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Tue May 17 12:34:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/custom.css?1305063242" for 127.0.0.1 at Tue May 17 12:34:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Tue May 17 12:34:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Tue May 17 12:34:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Tue May 17 12:34:25 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 17 12:34:47 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Tue May 17 12:34:47 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/stylesheets/custom.css?1305063242" for 127.0.0.1 at Tue May 17 12:34:48 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Tue May 17 12:34:48 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Tue May 17 12:34:48 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Tue May 17 12:34:48 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 17 12:35:28 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 31ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Tue May 17 12:35:40 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Tue May 17 12:35:40 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/public/custom.css" for 127.0.0.1 at Tue May 17 12:35:40 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/public/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Tue May 17 12:35:40 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Tue May 17 12:35:40 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue May 17 12:36:11 -0400 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/screen.css?1304628792" for 127.0.0.1 at Tue May 17 12:36:12 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/screen.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/public/custom.css" for 127.0.0.1 at Tue May 17 12:36:12 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/public/custom.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/print.css?1304628792" for 127.0.0.1 at Tue May 17 12:36:12 -0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/print.css"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/logo.png?1305058784" for 127.0.0.1 at Tue May 17 12:36:12 -0400 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at Tue May 17 12:36:12 -0400 2011
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered rspec/ruby/1.8/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
