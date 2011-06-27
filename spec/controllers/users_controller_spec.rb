@@ -41,6 +41,12 @@ describe UsersController do
         delete :destroy, :id => @user
         response.should redirect_to(users_path)
       end
+
+ #     it "should NOT allow the destruction of admin" do
+ #       lambda do
+ #         delete :destroy, :id => admin
+ #       end.should_not change(User, :count).by(-1)
+ #     end
     end
   end
 
@@ -91,6 +97,25 @@ describe UsersController do
         response.should have_selector("span.disabled", :content => "Previous")
         response.should have_selector("a", :href => "/users?page=2", :content => "2")
         response.should have_selector("a", :href => "/users?page=2", :content => "Next")
+      end
+    end
+  end
+
+  describe "Only admins should be able to see certain elements" do
+
+    describe "Index elements" do
+
+      it "should show delete links to admins" do
+        admin = Factory(:user, :email => "admin@example.com", :admin => true)
+        test_sign_in(admin)
+        get :index
+        response.should have_selector("li", :content => "delete")
+      end
+
+      it "should NOT show delete links to other users" do
+        @user = test_sign_in(Factory(:user))
+        get :index
+        response.should_not have_selector("li", :content => "delete")
       end
     end
   end
@@ -236,6 +261,14 @@ describe UsersController do
       get :show, :id => @user
       response.should have_selector("h1>img", :class => "gravatar")
     end
+
+    it "should show the user's microposts" do
+      mp1 = Factory(:micropost, :user => @user, :content => "Foo bar")
+      mp2 = Factory(:micropost, :user => @user, :content => "Baz quux")
+      get :show, :id => @user
+      response.should have_selector("span.content", :content => mp1.content)
+      response.should have_selector("span.content", :content => mp2.content)
+    end
   end
 
   describe "GET 'new'" do
@@ -305,6 +338,26 @@ describe UsersController do
         end
       end
   end
+
+  describe "Signed in users should not be allowed to go to new or create" do
+
+        before(:each) do
+          @user = Factory(:user)
+          test_sign_in(@user)
+         end
+
+        it "Create redirected to root success" do
+          get :create, :id => @user
+          response.should redirect_to(root_path)
+        end
+
+        it "New redirected to root success" do
+          get :new, :id => @user
+          response.should redirect_to(root_path)
+        end
+  end
+
+
 
 
 end

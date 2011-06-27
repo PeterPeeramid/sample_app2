@@ -10,25 +10,31 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    @microposts = @user.microposts.paginate(:page => params[:page])
     @title = @user.name
   end
 
   def new
     @title = "Sign up"
     @user = User.new
+    redirect_to(root_path) if signed_in?
   end
 
   def create
     @user = User.new(params[:user])
-    if @user.save
-      sign_in @user
-      flash[:success] = "Welcome to the Sample App!"
-      redirect_to @user
+    if signed_in?
+      redirect_to(root_path)
     else
-      @title = "Sign up"
-      @user.password = ""
-      @user.password_confirmation = ""
-      render 'new'
+      if @user.save
+        sign_in @user
+        flash[:success] = "Welcome to the Sample App!"
+        redirect_to @user
+      else
+        @title = "Sign up"
+        @user.password = ""
+        @user.password_confirmation = ""
+        render 'new'
+      end
     end
   end
 
@@ -54,8 +60,8 @@ class UsersController < ApplicationController
 
   private
 
-  def authenticate
-    deny_access unless signed_in?
+  def destroyed_user
+
   end
 
   def correct_user
